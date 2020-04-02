@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Machine Learning </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+               
+                <li class="current"><a href="blog.html" title="blog">Blog</a></li>
+                
+            </ul>
+        </nav>
+
+       
+
+    </header> <!-- end s-header -->
+
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero" style="background-image:url(ML.jpg)">
+        
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    
+                    <h1 class="page-header__title">
+                            As a beginner to Machine Learning..
+                    </h1>
+                    
+                </article>
+            </div>
+    
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+
+                <h2>Getting Started</h2>
+
+                <p> 
+                   Since I am new to this field and I wanted a support ,I signed up for a course on coursera by Andrew ng which helped me to get to know concepts about the mathematics behind the Machine Learning. 
+                </p>
+                <a href="https://www.coursera.org/learn/machine-learning/home/welcome">Link to the course</a>
+
+                <p>I have completed this course till week 5,where I learned about basic math behind some great ML concepts like Linear regression,Gradient descent ,Logistic regression,Regularization,Neural networks,and some examples of them. </p>
+                <p>
+                    I also learned about different optimization functions, activation functions and hyperparameters.These things are important in getting maximum accuracy for our model,selection of correct functions and parameters is a key thing to get maximum accuracy.
+                </p>
+
+                <h2>Python</h2>
+                <p>
+                    As python is the most feasible language to implement ML models, I explored different libraries are used in a ML program.
+                    Libraries like sklearn, pandas, matplotlib, numpy, seaborn etc.. many are used in a program which makes us easy to program and visualize a model.
+                </p>
+                <pre>
+                    <img src="sklearn.webp" height="200" width="250">                     <img src="numpy.png" height="200" width="200"> 
+                    <br>
+                    <img src="pandas.jpg" height ="200" width="250">                       <img src="matplotlib.png" height="200" width="250"> 
+                </pre>
+                
+                
+                
+                
+                
+                
+                
+                <h2>Some Implementations I tried</h2>
+                     
+                <p>
+                   First I tried implementing a linear regression model for pridicting a second-hand car's price given the number of years passed since its manufacure.
+                   This model gave me very bad results, so I tried it with a different dataset like predicting weight of a person given their height, this one I think it was good because it gave me good results.    
+                </p>
+                <p>
+                    Next,I have build a digit recogniser using logistic regression.This was my very first model with images and sklearn's logistic regression module helped me in this because i didn't implement the whole logistic regression function but called the help of the in-built module.
+                </p>
+
+                <pre>
+                        <img src="digits.png">                    
+                </pre>
+                <p>
+                    This model gave a accuracy around 95% ,and I thought that it was good enough for a small model like this.
+                    <br>
+                    <a href="https://github.com/siddharthc30/Hand-Written-Digit-Recognition" align ="center">Repo</a>
+               </p>
+
+               <h2>Kaggle</h2>
+
+               <p>
+                    This online community or platform has helped me a lot in practicing my skills on implementing models.As of now I have took part in two kaggle completetions.
+                    <br>
+                    1.<a href ="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview/tutorials">House Price:Advanced regression</a>
+                    <br>
+                    2.<a href ="https://www.kaggle.com/c/digit-recognizer">Digit Recogniser</a>
+               </p>
+               <p>
+                   During the completion of house pice prediction I learnt a lot of new things that has to be done to our data before training model i.e data preprocessing.
+                   Data Preprocessing helps to filter out our data from null values or unwanted features, it also helps us in feature selection which helps us to increase the efficiency of the model. 
+               </p>
+
+               <h3>House Price:Advanced regression</h3>
+               <p>
+                   This is my very first Neural network model which i have built using keras in python.
+                   for the first time when I subitted my results I got a rank around 3800, to improve my rank I made some changes to my model but now it giving a gradient exploding problem where loss and accuracy are returning nan values.
+                   <br>
+                   Things I learnt from this project:
+                   <br>
+                   How to create a Neural Network model using keras, Data preprocessing, one-hot encoding and Regularization.
+                   <br>
+                   <a href ="https://github.com/siddharthc30/House-price-prediction">Repo </a> 
+                </p>
+
+                <h3>Digit Recogniser</h3>
+                <p>
+                    This target of this project is to predict the digits which are in the form of images from MNIST dataset.I completed this task using a standard neural network which is built using keras and got a accuracy of 89%,when I submitted this score to kaggle my rank was around 2100.
+                    Right now I am trying to implement a convolutional neural network to make predictions to get much better results.
+                    <br>
+                    Things I have Learnt from this project:
+                    <br>
+                    How to computers read images, how to preprocess image data,how to solve the problem of overfitting (initially my model was overfitting).
+                    <br>
+                    <a href="https://github.com/siddharthc30/Hand-Written-Digit-Recognition">Repo</a> 
+                </p>
+               
+
+                <p>
+                    For the next few days I am going to work on learning CNNs, how to inceraase the effiency, accuracy of a neural network and solve the exploding gradient problem which I am facing with my House price prediction model.
+
+                </p>
+
+                <h2>What Next?</h2>
+                <p>
+                    I will be continuing my journey in the field of machine learning and deep learning(Computer vision).
+                </p>
+               
+                
+            </div><!-- end blog-content__main -->
+        </div> <!-- end blog-content -->
+
+    </article>
+
+
+   
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+               
+
+                <ul class="footer-social">
+                    
+                    <li><a href="https://twitter.com/SiddharthC30">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/siddharthc_30/?hl=en">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                   
+                    <li><a href="https://github.com/siddharthc30">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>github</span>
+                    </a></li>
+                   
+
+                </ul>
+                
+                    
+            </div>
+        </div>
+
+        
+    </footer> <!-- end footer -->
+
+    
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
